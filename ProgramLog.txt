@@ -1,0 +1,24 @@
+# ------------------------------------------------------- #
+| This file was creted to enlist the current issues faced |
+| and ideas to be developed for the project.              |
+| Developed By: Sapna Bora and G. Anil Himam              |
+| Date: 26th Feb, 2022                                    |
+# ------------------------------------------------------- #
+
+28th Feb - Monday
+Completed the basic designs and layout required for the project.
+
+5th Mar - 6th Mar (Sat - Sun)
+Started working on the Login Page.
+Completed working on the Login Page.
+
+11th Mar - 14th Mar (Fri - Mon)
+Completed working on all the links corresponding to the home page.
+Also added all the required CSS and final touches to the webpages.
+
+1st Apr - 4th Apr (Fri - Mon)
+Started working on the backend.
+
+9th Apr - 10th Apr (Sat - Sun)
+Completed the backend and wrapped up the project.
+
