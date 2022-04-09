@@ -40,17 +40,60 @@
         </ul>
     </div>
 
+    <div class="info" style="margin-top: 20px; float: left; text-align: center;">
+        <fieldset class="box">
+            <form>
+                <label class="subheading">Search For Blood</label><br><br>
+                <label form="state">State</label>
+                <select name="state" id="state">
+                    <option value="states" selected>--Select state--</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>   
+                </select><br><br>
+
+                <label for="city">City</label>
+                <select name="city" id="city">
+                    <option value="cities" selected>--Select City--</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Dehradun">Dehradun</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Vishakapatnam">Vishakapatnam</option>
+                    <option value="Chennai">Chennai</option>
+                </select><br><br>
+
+                <label for="Group">Blood Group</label>
+                <select name="Group" id="Group">
+                    <option value="group" selected>--Select Blood Group--</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select><br><br>
+
+                <input type="submit" name="search" value="Search" class="submit">
+            </form>
+        </fieldset>
+    </div>
+
     <!-- Iframe -->
     <video class="video" autoplay muted controls>
         <source src="Blood Donation Guide.mp4" type="video/mp4">
         Your Browser Doesnt Video Playback
     </video>
 
-    <div style="margin-top: 50px; text-align: center;">
+    <fieldset class="box2">
         <form>
-            <label class="subheading">Would You like to Donate Blood</label><br><br>
+            <label class="subheading">Donate Blood</label><br><br>
             <label for="state">State</label>
             <select id="state" class="login_cred">
+                <option value="states" selected>--Select State--</option>
                 <option value="Delhi">Delhi</option>
                 <option value="Punjab">Punjab</option>
                 <option value="UT">Uttarakhand</option>
@@ -60,6 +103,7 @@
 
             <label for="city">City</label>
             <select id="city" class="login_cred">
+                <option value="states" selected>--Select City--</option>
                 <option value="ND">New Delhi</option>
                 <option value="CD">Chandigarh</option>
                 <option value="DD">Dehradun</option>
@@ -69,6 +113,7 @@
 
             <label for="bg">Blood Group</label>
             <select id="bg" class="login_cred">
+                <option value="states" selected>--Select Blood Group--</option>
                 <option value="A+">A+</option>
                 <option value="A-">A-</option>
                 <option value="B+">B+</option>
@@ -78,9 +123,8 @@
                 <option value="AB+">AB+</option>
                 <option value="AB-">AB-</option>
             </select><br><br>
-
-            <input type="submit" name="search" value="Search" class="login_cred submit">
+            <input type="submit" name="search" value="Search" class="submit">
         </form>
-    </div>
+    </fieldset>
 </body>
 </html>

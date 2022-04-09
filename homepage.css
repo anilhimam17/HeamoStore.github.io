@@ -1,14 +1,9 @@
-.login_cred
-{
-    width: 500px;
-    height: 50px;
-}
-
 .submit
 {
+    width: 200px;
     border-radius: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: #66ffff;
 }
 
@@ -29,6 +24,7 @@
     text-align: center;
     padding: 30px;
     font-size: 40px;
+    color: white;
 }
 
 .image
@@ -45,6 +41,7 @@ ul
     margin: 0;
     overflow: hidden;
     background-color: #888;
+    float: left;
 }
 
 li
@@ -72,6 +69,7 @@ a:hover
     margin-top: 40px;
     text-align: center;
     color: rgb(12, 135, 184);
+    font-size: 25px;
 }
 
 .donation 
@@ -87,12 +85,35 @@ table, th, td
     text-align: center;
 }
 
+.lists{
+    margin-left: 300px;
+    font-size: 25px;
+    color: rgb(12, 135, 184);;
+}
+
+.box{
+    width: 820px;
+    height: 285px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.box2
+{
+    float: left; 
+    margin-top: 20px;
+    margin-left: 20px; 
+    text-align: center;
+    width: 95%;
+    border: 2px solid black;
+}
+
 .video
 {
     width: 500px;
     height: 300px;
     margin-top: 20px;
-    margin-right: 50px;
+    margin-right: 20px;
     float: right;
     border: 2px solid black;
 }
