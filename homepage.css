@@ -42,6 +42,7 @@ ul
     overflow: hidden;
     background-color: #888;
     float: left;
+    margin-bottom: 20px;
 }
 
 li
@@ -52,7 +53,7 @@ li
 li a
 {
     display: block;
-    padding: 20px 43px;
+    padding: 20px 61px;
     color: black;
     text-align: center;
     text-decoration: none;
@@ -68,14 +69,16 @@ a:hover
 {
     margin-top: 40px;
     text-align: center;
-    color: rgb(12, 135, 184);
-    font-size: 25px;
+    color: #1ac6ff;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .donation 
 {
     margin: 20px;
     font-size: 20px;
+    float: left;
 }
 
 table, th, td
@@ -83,6 +86,16 @@ table, th, td
     font-size: 20px;
     padding: 20px;
     text-align: center;
+}
+
+.bg
+{
+    background-color: #888;
+}
+
+tr:hover
+{
+    background-color: red;
 }
 
 .lists{
@@ -116,4 +129,16 @@ table, th, td
     margin-right: 20px;
     float: right;
     border: 2px solid black;
+}
+
+.gif
+{
+    float: right;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.contactus
+{
+    margin-right: 150px;
 }
